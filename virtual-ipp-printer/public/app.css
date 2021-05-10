@@ -58,6 +58,7 @@ body {
     color: #2c3e50;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border: 0.5px solid #2c3e50;
 }
 
 #nav a.router-link-exact-active,
@@ -69,4 +70,50 @@ body {
 .home {
     text-align: left;
     margin-left: 10px;
+}
+
+.home .logo {
+    width: 250px;
+}
+
+
+#info {
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+#info td, #info th {
+    border: 1px solid #2c3e50;
+    padding: 5px;
+} 
+
+#info tr:nth-child(even){background-color: #f2f2f2;}
+
+#info tr td:first-child {
+    background: #42b983;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.progress {
+    background-color: #ccc;
+    width: 100%;
+    height: 20px;
+}
+
+.progress-bar { 
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.progress-bar.main {
+    background-color: #42b983;
+}
+
+.progress-bar.black {
+    background-color: black;
+    color: #fff;
 }

@@ -10,8 +10,11 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.0",
+    "bootstrap-vue": "^2.21.2",
     "express": "^4.17.1",
     "ipp-printer": "^1.0.0",
-    "snmpjs": "^0.1.8"
+    "snmpjs": "^0.1.8",
+    "vue": "^2.6.12"
   }
 }
